@@ -26,3 +26,5 @@ redis                   # 17_redis_basics
 # ── Graph: Neo4j ───────────────────────────────────────────────────────────────
 py2neo                  # 16_graph_databases_neo4j (py2neo client)
 neo4j                   # 16_graph_databases_neo4j (official driver)
+networkx                # 16_graph_databases_neo4j (graph simulation for cypher_basics)
+scipy                   # required by networkx PageRank (_pagerank_scipy backend)
