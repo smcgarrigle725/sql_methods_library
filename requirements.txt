@@ -1,0 +1,28 @@
+# ── Core notebook environment ──────────────────────────────────────────────────
+jupyter
+ipykernel
+notebook
+
+# ── Data / SQL ─────────────────────────────────────────────────────────────────
+pandas                  # 14_python_sql_integration, 19_geospatial_sql
+sqlalchemy              # 14_python_sql_integration (Core + ORM)
+psycopg2-binary         # PostgreSQL adapter (referenced throughout for pg notes)
+
+# ── Geospatial ─────────────────────────────────────────────────────────────────
+geopandas               # 19_geospatial_sql
+shapely                 # 19_geospatial_sql
+pyproj                  # 19_geospatial_sql
+fiona                   # geopandas dependency for file I/O
+
+# ── NoSQL: MongoDB ─────────────────────────────────────────────────────────────
+pymongo                 # 11_nosql_mongodb
+
+# ── NoSQL: DynamoDB ────────────────────────────────────────────────────────────
+boto3                   # 12_nosql_dynamodb
+
+# ── NoSQL: Redis ───────────────────────────────────────────────────────────────
+redis                   # 17_redis_basics
+
+# ── Graph: Neo4j ───────────────────────────────────────────────────────────────
+py2neo                  # 16_graph_databases_neo4j (py2neo client)
+neo4j                   # 16_graph_databases_neo4j (official driver)
