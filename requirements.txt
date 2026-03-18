@@ -22,6 +22,7 @@ boto3                   # 12_nosql_dynamodb
 
 # ── NoSQL: Redis ───────────────────────────────────────────────────────────────
 redis                   # 17_redis_basics
+fakeredis               # 17_redis_basics (in-memory Redis simulation for notebooks)
 
 # ── Graph: Neo4j ───────────────────────────────────────────────────────────────
 py2neo                  # 16_graph_databases_neo4j (py2neo client)
